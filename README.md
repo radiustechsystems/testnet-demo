@@ -29,6 +29,7 @@ To interact with the Radius Testnet using Hardhat, you'll need to install the Ha
 
 ```console
 $ npm install @nomicfoundation/hardhat-ethers ethers
+$ npm install @nomicfoundation/hardhat-ignition-ethers
 $ npm install hardhat
 ```
 
@@ -40,9 +41,10 @@ To deploy a contract, you can copy the `hardhat.config.ts` file from the `demo-c
 $ cp demo-config-files/hardhat.config.ts hardhat.config.ts
 ```
 
-Next, you can deploy a contract using the Hardhat CLI.
+Next, you can deploy a contract using the Hardhat CLI. In this example, we're going to compile and deploy the `Lock` contract from the `ignition` directory.
 ```console
-$ npx hardhat
+$ npx hardhat compile
+$ npx hardhat ignition deploy ./ignition/modules/Lock.js
 ```
 
 For more information about Hardhat and smart contract deployment,
