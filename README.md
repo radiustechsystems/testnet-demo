@@ -34,20 +34,15 @@ $ npm install hardhat
 
 ## Deploying a Contract
 
-To deploy a contract, you'll need to create a Hardhat configuration file.
+To deploy a contract, you can copy the `hardhat.config.ts` file from the `demo-config-files` directory and edit the `url:` value to correspond with the url of the agent RPC server as well as the `accounts:` value to correspond with the private key of your wallet.
 
 ```console
-$ npx hardhat
+$ cp demo-config-files/hardhat.config.ts hardhat.config.ts
 ```
 
-This will create a `hardhat.config.js` file in your project directory.
-
-Edit the `url:` value in the `hardhat.config.js` file to correspond with the url of the agent RPC server.
-
-You should now be able to use the Hardhat console.
-
+Next, you can deploy a contract using the Hardhat CLI.
 ```console
-$ npx hardhat console
+$ npx hardhat
 ```
 
 For more information about Hardhat and smart contract deployment,
