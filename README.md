@@ -11,13 +11,13 @@ https://testnet.tryradi.us/
 
 Once you have an RPC endpoint, you can use the faucet to mint tokens: 
 
-https://testnet.tryradi.us/faucet.
+https://testnet.tryradi.us/dashboard/faucet.
 
 ## Explorer
 
 The explorer is a tool for inspecting transactions on the Radius Testnet. It is currently in development, but you can find the latest version here:
 
-https://testnet.tryradi.us/explorer.
+https://testnet.tryradi.us/dashboard/explorer.
 
 ## MetaMask
 
