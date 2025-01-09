@@ -17,4 +17,4 @@ node_modules
 ignition/deployments/
 
 # Hardhat config files
-hardhat.config.ts
+./hardhat.config.ts
