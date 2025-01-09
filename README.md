@@ -28,9 +28,8 @@ Within the dashboard, you can also find instructions for configuring MetaMask.
 To interact with the Radius Testnet using Hardhat, you'll need to install the Hardhat package and the ethers package.
 
 ```console
-$ npm install @nomicfoundation/hardhat-ethers ethers
-$ npm install @nomicfoundation/hardhat-ignition-ethers
-$ npm install hardhat
+$ npm i
+$ npm i -g hardhat
 ```
 
 ## Deploying a Contract
