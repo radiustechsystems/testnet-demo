@@ -48,3 +48,9 @@ $ npx hardhat ignition deploy ./ignition/modules/Lock.js
 
 For more information about Hardhat and smart contract deployment,
 browse the [Hardhat getting started guide](https://hardhat.org/hardhat-runner/docs/getting-started#quick-start).
+
+## Limitations
+
+Currently the testnet will not autoscale to accomodate higher loads. Additionally, contracts which contend on a small number of keys will not be performant. For example, AMMs which lock pools of capital for each transaction will not parallelize. You can test these contracts but you should sequence your transactions to them.
+
+We are working on strategies to alleviate these limitations but do not yet have them deployed.
