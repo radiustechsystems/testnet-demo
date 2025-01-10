@@ -2,6 +2,8 @@
 
 This guide runs through provisioning an RPC endpoint, using the faucet to mint tokens, and setting up your local environment to interact with the Radius Testnet using Hardhat and MetaMask.  
 
+Note: This is a testnet so should be considered ephemeral. We may reset the state at any point. An announcement will be made on Slack should this become necessary.
+
 ## RPC Endpoint
 The first step to engaging the the testnet is provisioning an RPC endpoint. We're currently in invite-only mode, so you'll need to request an invite from the Radius team. Once you have an invite, you can provision an RPC endpoint from the dashboard:
 
