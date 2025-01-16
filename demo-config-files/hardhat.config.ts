@@ -3,7 +3,10 @@ import "@nomicfoundation/hardhat-ignition-ethers";
 import { HardhatUserConfig } from "hardhat/config";
 
 const config: HardhatUserConfig = {
- solidity: {
+  ignition: {
+    requiredConfirmations: 0
+  },
+  solidity: {
    compilers: [
      {
        version: "0.8.28",
